@@ -1,8 +1,6 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
-using NUnit.Framework;
-using System;
 
 namespace TestProject1
 {
@@ -27,7 +25,8 @@ namespace TestProject1
             options.AddArguments("disable-gpu");
             options.AddArguments("window-size=1920x1080");
             options.AddArguments("disable-extensions");
-            options.AddArguments("remote-debugging-port=9222");
+            //options.AddArguments("remote-debugging-port=9222");
+
             driver = new ChromeDriver(options);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             driver.Url = "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com/number-calculator/";
@@ -46,7 +45,6 @@ namespace TestProject1
             driver.Quit();
             driver.Dispose();
         }
-
         public void PerformCalculation(string firstNumber, string operation,
                                         string secondNumber, string expectedResult)
         {
@@ -87,5 +85,8 @@ namespace TestProject1
         {
             PerformCalculation(firstNumber, operation, secondNumber, expectedResult);
         }
+
+       
+
     }
 }

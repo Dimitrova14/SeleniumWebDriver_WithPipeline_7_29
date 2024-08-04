@@ -96,6 +96,7 @@ C:\Front-end Test Automation src code\13.Workshop-CI-System-with-Selenium-Appium
 C:\Front-end Test Automation src code\13.Workshop-CI-System-with-Selenium-Appium-Tests-I-Resources\2-SeleniumWebDriver\TestProject2\obj\Debug\net6.0\TestProject2.AssemblyInfoInputs.cache
 C:\Front-end Test Automation src code\13.Workshop-CI-System-with-Selenium-Appium-Tests-I-Resources\2-SeleniumWebDriver\TestProject2\obj\Debug\net6.0\TestProject2.AssemblyInfo.cs
 C:\Front-end Test Automation src code\13.Workshop-CI-System-with-Selenium-Appium-Tests-I-Resources\2-SeleniumWebDriver\TestProject2\obj\Debug\net6.0\TestProject2.csproj.CoreCompileInputs.cache
+C:\Front-end Test Automation src code\13.Workshop-CI-System-with-Selenium-Appium-Tests-I-Resources\2-SeleniumWebDriver\TestProject2\obj\Debug\net6.0\TestProject2.sourcelink.json
 C:\Front-end Test Automation src code\13.Workshop-CI-System-with-Selenium-Appium-Tests-I-Resources\2-SeleniumWebDriver\TestProject2\obj\Debug\net6.0\TestProj.00C319AE.Up2Date
 C:\Front-end Test Automation src code\13.Workshop-CI-System-with-Selenium-Appium-Tests-I-Resources\2-SeleniumWebDriver\TestProject2\obj\Debug\net6.0\TestProject2.dll
 C:\Front-end Test Automation src code\13.Workshop-CI-System-with-Selenium-Appium-Tests-I-Resources\2-SeleniumWebDriver\TestProject2\obj\Debug\net6.0\refint\TestProject2.dll

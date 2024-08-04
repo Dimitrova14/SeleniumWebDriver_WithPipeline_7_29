@@ -20,7 +20,7 @@ namespace TestProject2
             options.AddArguments("disable-gpu");
             options.AddArguments("window-size=1920x1080");
             options.AddArguments("disable-extensions");
-            options.AddArguments("remote-debugging-port=9222");
+            //options.AddArguments("remote-debugging-port=9222");
             driver = new ChromeDriver(options);
             // Add implicit wait
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
@@ -73,5 +73,7 @@ namespace TestProject2
             Assert.IsTrue(File.Exists(path), "CSV file was not created");
             Assert.IsTrue(new FileInfo(path).Length > 0, "CSV file is empty");
         }
+
+        
     }
 }
